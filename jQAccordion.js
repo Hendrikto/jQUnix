@@ -1,7 +1,7 @@
 /***********************************************************
 
 jQAccordion.js
-v 0.1
+v0.1
 
 A jQuery plugin that creates an accordion style menu.
 
