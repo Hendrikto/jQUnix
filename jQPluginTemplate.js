@@ -1,7 +1,7 @@
 /***********************************************************
 
 jQPluginName.js
-v0.1
+v0.1.1
 
 The plugin description goes here.
 
