@@ -1,12 +1,12 @@
 /***********************************************************
 
 jQAccordion.js
-v0.1.1
+v0.1.2
 
 A jQuery plugin that creates an accordion style menu.
 
 ***********************************************************/
-(function($) {
+;(function($) {
 	$.fn.accordion = function (options) {
 		options = options || {};
 		var	trigger = options.trigger || "div",

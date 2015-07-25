@@ -1,13 +1,13 @@
 /***********************************************************
 
 jQDisplaceBody.js
-v0.1
+v0.1.1
 
 A jQuery plugin that creates a slide in effect which
 displaces the page content.
 
 ***********************************************************/
-(function($) {
+;(function($) {
 	$.fn.displaceBody = function (trigger, options) {
 		// return if no jQuery object was provided as a trigger
 		if (!(trigger instanceof $)) {
