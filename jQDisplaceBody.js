@@ -23,11 +23,11 @@ displaces the page content.
 		trigger.on(event, function () {
 			if (nodeHidden) {
 				// open
-				$body.css(position, nodeWidth);
+				$body.css("padding-" + position, nodeWidth);
 				node.css(position, 0);
 			} else {
 				// close
-				$body.css(position, 0);
+				$body.css("padding-" + position, 0);
 				node.css(position, -nodeWidth);
 			}
 			nodeHidden = !nodeHidden;
