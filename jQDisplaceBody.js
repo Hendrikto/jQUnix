@@ -1,7 +1,7 @@
 /***********************************************************
 
 jQDisplaceBody.js
-v0.1.1
+v0.1.2
 
 A jQuery plugin that creates a slide in effect which
 displaces the page content.
@@ -23,11 +23,11 @@ displaces the page content.
 		trigger.on(event, function () {
 			if (nodeHidden) {
 				// open
-				$body.css("padding-" + position, nodeWidth);
+				$body.css("padding-" + position, "+=" + nodeWidth);
 				node.css(position, 0);
 			} else {
 				// close
-				$body.css("padding-" + position, 0);
+				$body.css("padding-" + position, "-=" + nodeWidth);
 				node.css(position, -nodeWidth);
 			}
 			nodeHidden = !nodeHidden;
